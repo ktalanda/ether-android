@@ -1,11 +1,9 @@
 package pl.k2net.ktalanda.ethereumtest
 
-class MainPresenter {
 
-    private var view: ViewInterface? = null
+class MainPresenter(val view: ViewInterface) {
 
-    fun bind(viewInterface: ViewInterface) {
-        this.view = viewInterface
+    fun testEther() {
     }
 
     interface ViewInterface
